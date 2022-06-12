@@ -1,0 +1,24 @@
+.hero{
+    background: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.4)), url('../public/home//hero.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100%;
+    height: calc(100vh - 70px);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.hero h1{
+    font-size: 2.3rem;
+    color:#fff;
+}
+.hero a{
+    padding: 0.6rem 1rem;
+    border:none;
+    border-radius: 3px;
+    text-decoration: none;
+    background:rgb(21, 115, 192);
+    font-size: 1rem;
+}

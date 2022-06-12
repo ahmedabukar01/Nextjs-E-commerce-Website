@@ -1,0 +1,19 @@
+.header{
+    background: steelblue;
+    color:#fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 10px;
+    width: 100%;
+    height: 70px;
+}
+.header li{
+    display: inline-block;
+    margin: 0 3px;
+    font-size: 1.1rem;
+}
+.header h1{
+    cursor: pointer;
+    font-size: 2.1rem;
+}
